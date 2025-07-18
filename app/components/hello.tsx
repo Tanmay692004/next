@@ -1,12 +1,12 @@
 "use client"
 
-function Hello(){
+function hello(){
     console.log("I am a client component")
     
     return (
         <div>
-        <h1> Hello</h1>
+        <h1> hello</h1>
         </div>
     )
 }
-export default Hello;
+export default hello;
