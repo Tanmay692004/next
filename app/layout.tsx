@@ -26,9 +26,15 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <h1 className="text-3xl">root</h1>
+        <h1 className="text-3xl">root layout</h1>
         {children}
       </body>
     </html>
   );
 }
+
+
+// adding navbar
+
+// import Navbar from "./navbar"
+// import Footer from "./footer"
